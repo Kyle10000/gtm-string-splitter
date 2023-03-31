@@ -1,0 +1,5 @@
+homepage: "https://www.linkedin.com/in/kylehutton/"
+documentation: "https://github.com/Kyle10000/gtm-string-splitter/blob/main/README.md"
+versions:
+  - sha: 103141775f15ddc80fed1b9e7d3de2116c5fabb7
+    changeNotes: Initial release.

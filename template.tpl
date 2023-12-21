@@ -122,13 +122,15 @@ var input = data.input,
     output = '';
 
 // Variables must return a value.
-if (delimiterSpaces){
-  output = input.split(" " + delimiter + " ")[arrayPosition];
-}
-else {
-  output = input.split(delimiter)[arrayPosition];
-}
-return trimString ? output.trim() : output;
+if (data.input){
+  if (delimiterSpaces){
+    output = input.split(" " + delimiter + " ")[arrayPosition];
+  }
+  else {
+    output = input.split(delimiter)[arrayPosition];
+  }
+  return trimString ? output.trim() : output;
+};
 
 
 ___TESTS___

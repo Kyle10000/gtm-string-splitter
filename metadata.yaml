@@ -2,8 +2,10 @@ homepage: "https://github.com/Kyle10000"
 documentation: "https://github.com/Kyle10000/gtm-string-splitter"
 versions:
   # Latest version
+  - sha: 3e81d3126dce700367bc2a1eda32953969bdaca6
+    changeNotes: The variable will now return undefined, instead of false, when it tries to return an array position which does not exist.
+  # Older versions    
   - sha: 58704791a79307cb5a4a7d80d8dcf6912b6f8c44
     changeNotes: When the input variable was undefined the template was returning "false". Now it will return undefined.
-  # Older versions    
   - sha: 103141775f15ddc80fed1b9e7d3de2116c5fabb7
     changeNotes: Initial release.

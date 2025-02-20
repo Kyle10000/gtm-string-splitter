@@ -98,8 +98,7 @@ ___TEMPLATE_PARAMETERS___
         "type": "CHECKBOX",
         "name": "delimiterSpaces",
         "checkboxText": "Delimiter includes spaces",
-        "simpleValueType": true,
-        "defaultValue": ""
+        "simpleValueType": true
       },
       {
         "type": "CHECKBOX",
